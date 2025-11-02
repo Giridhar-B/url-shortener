@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "description": "URL shortener project with client and server",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "concurrently -n SERVER,CLIENT -c green,blue \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "react-icons": "^5.5.0"
+  }
+}
