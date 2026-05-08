@@ -15,7 +15,7 @@ const LinkList = ({ links }) => {
         <p>No links found</p>
       ) : (
         links.map((link) => {
-          const shortUrl = `http://localhost:5000/${link.shortId}`;
+          const shortUrl = `${import.meta.env.VITE_REDIRECT_BASE_URL}/r/${link.shortId}`;
 
           return (
             <div
@@ -43,7 +43,7 @@ const LinkList = ({ links }) => {
               <p>
                 <strong>Short:</strong>{" "}
                 <a
-                  href={`http://localhost:5000/${link.shortId}`}
+                  href={`${import.meta.env.VITE_REDIRECT_BASE_URL}/r/${link.shortId}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
