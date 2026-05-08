@@ -30,7 +30,7 @@ app.use(express.json());
 app.use("/auth", authRoutes);
 
 // MAIN API ROUTES (ALL FEATURES INSIDE THIS)
-app.use("/api", linkRoutes);
+app.use("/", linkRoutes);
 
 // HEALTH CHECK
 app.get("/", (req, res) => {
