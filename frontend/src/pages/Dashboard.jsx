@@ -271,7 +271,7 @@ const Dashboard = () => {
             </div>
           ) : (
             links.map((link) => {
-              const shortUrl = `${BASE_URL}/${link.shortId}`;
+              const shortUrl = `${BASE_URL}/r/${link.shortId}`;
 
               return (
                 <div key={link._id} style={styles.linkCard}>
