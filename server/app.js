@@ -39,6 +39,6 @@ app.get("/", (req, res) => {
 
 // REDIRECT ROUTE
 
-app.get("/:shortCode", redirectToOriginal);
+app.get("/r/:shortCode", redirectToOriginal);
 
 module.exports = app;
