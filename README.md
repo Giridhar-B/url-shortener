@@ -214,7 +214,9 @@ GET /api/analytics/:code
 
 ---
 
-# Author
-**Giridhar B**  
-[GitHub Profile](https://github.com/Giridhar-B)  
-[GitHub Profile](https://url-shortener-one-lemon.vercel.app/) 
+# 👤 Author
+
+**Giridhar B**
+
+🔗 GitHub: https://github.com/Giridhar-B  
+🚀 Live Demo: https://url-shortener-one-lemon.vercel.app/
