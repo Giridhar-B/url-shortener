@@ -132,12 +132,12 @@ const Analytics = () => {
             </h2>
 
             <a
-              href={`${BASE_URL}/${meta.shortCode}`}
+              href={`${BASE_URL}/r/${meta.shortCode}`}
               target="_blank"
               rel="noreferrer"
               style={styles.shortUrl}
             >
-              {BASE_URL}/{meta.shortCode}
+              {BASE_URL}/r/{meta.shortCode}
 
               <ExternalLink size={15} />
             </a>
