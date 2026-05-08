@@ -27,7 +27,7 @@ app.use(express.json());
 // ROUTES
 
 // AUTH ROUTES
-app.use("/api/auth", authRoutes);
+app.use("/auth", authRoutes);
 
 // MAIN API ROUTES (ALL FEATURES INSIDE THIS)
 app.use("/api", linkRoutes);
